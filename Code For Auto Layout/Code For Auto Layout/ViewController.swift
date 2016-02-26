@@ -50,7 +50,8 @@ class ViewController: UIViewController {
             view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|[\(label)]|", options: [], metrics: nil, views: viewsDictionary))
         }
         
-        view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|[label1]-[label2]-[label3]-[label4]-[label5]", options: [], metrics: nil, views: viewsDictionary))
+        //999优先级:很重要，但是不是必须
+        view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-(==10)-[label1(h@999)]-[label2(label1)]-[label3(label1)]-[label4(label1)]-[label5(label1)]-(>=20)-|", options: [], metrics: ["h":88], views: viewsDictionary))
     }
 
     override func didReceiveMemoryWarning() {
