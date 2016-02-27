@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2930A7EE1C7F4CA40045DF7E"
-               BuildableName = "4-Easy Browser with WKWebView.app"
-               BlueprintName = "4-Easy Browser with WKWebView"
-               ReferencedContainer = "container:4-Easy Browser with WKWebView.xcodeproj">
+               BlueprintIdentifier = "A6C7FA6E1C7FD30A00A2B034"
+               BuildableName = "Easy Browser with WKWebView.app"
+               BlueprintName = "Easy Browser with WKWebView"
+               ReferencedContainer = "container:Easy Browser with WKWebView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2930A7EE1C7F4CA40045DF7E"
-            BuildableName = "4-Easy Browser with WKWebView.app"
-            BlueprintName = "4-Easy Browser with WKWebView"
-            ReferencedContainer = "container:4-Easy Browser with WKWebView.xcodeproj">
+            BlueprintIdentifier = "A6C7FA6E1C7FD30A00A2B034"
+            BuildableName = "Easy Browser with WKWebView.app"
+            BlueprintName = "Easy Browser with WKWebView"
+            ReferencedContainer = "container:Easy Browser with WKWebView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2930A7EE1C7F4CA40045DF7E"
-            BuildableName = "4-Easy Browser with WKWebView.app"
-            BlueprintName = "4-Easy Browser with WKWebView"
-            ReferencedContainer = "container:4-Easy Browser with WKWebView.xcodeproj">
+            BlueprintIdentifier = "A6C7FA6E1C7FD30A00A2B034"
+            BuildableName = "Easy Browser with WKWebView.app"
+            BlueprintName = "Easy Browser with WKWebView"
+            ReferencedContainer = "container:Easy Browser with WKWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2930A7EE1C7F4CA40045DF7E"
-            BuildableName = "4-Easy Browser with WKWebView.app"
-            BlueprintName = "4-Easy Browser with WKWebView"
-            ReferencedContainer = "container:4-Easy Browser with WKWebView.xcodeproj">
+            BlueprintIdentifier = "A6C7FA6E1C7FD30A00A2B034"
+            BuildableName = "Easy Browser with WKWebView.app"
+            BlueprintName = "Easy Browser with WKWebView"
+            ReferencedContainer = "container:Easy Browser with WKWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2930A7F31C7F4CA40045DF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930A7F21C7F4CA40045DF7E /* AppDelegate.swift */; };
-		2930A7F51C7F4CA40045DF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930A7F41C7F4CA40045DF7E /* ViewController.swift */; };
-		2930A7F81C7F4CA40045DF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2930A7F61C7F4CA40045DF7E /* Main.storyboard */; };
-		2930A7FA1C7F4CA40045DF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2930A7F91C7F4CA40045DF7E /* Assets.xcassets */; };
-		2930A7FD1C7F4CA40045DF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2930A7FB1C7F4CA40045DF7E /* LaunchScreen.storyboard */; };
+		A6C7FA731C7FD30A00A2B034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7FA721C7FD30A00A2B034 /* AppDelegate.swift */; };
+		A6C7FA751C7FD30A00A2B034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C7FA741C7FD30A00A2B034 /* ViewController.swift */; };
+		A6C7FA781C7FD30A00A2B034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C7FA761C7FD30A00A2B034 /* Main.storyboard */; };
+		A6C7FA7A1C7FD30A00A2B034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C7FA791C7FD30A00A2B034 /* Assets.xcassets */; };
+		A6C7FA7D1C7FD30A00A2B034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C7FA7B1C7FD30A00A2B034 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2930A7EF1C7F4CA40045DF7E /* 4-Easy Browser with WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4-Easy Browser with WKWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2930A7F21C7F4CA40045DF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2930A7F41C7F4CA40045DF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2930A7F71C7F4CA40045DF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2930A7F91C7F4CA40045DF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2930A7FC1C7F4CA40045DF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2930A7FE1C7F4CA40045DF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C7FA6F1C7FD30A00A2B034 /* Easy Browser with WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Browser with WKWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C7FA721C7FD30A00A2B034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6C7FA741C7FD30A00A2B034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6C7FA771C7FD30A00A2B034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6C7FA791C7FD30A00A2B034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6C7FA7C1C7FD30A00A2B034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6C7FA7E1C7FD30A00A2B034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2930A7EC1C7F4CA40045DF7E /* Frameworks */ = {
+		A6C7FA6C1C7FD30A00A2B034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2930A7E61C7F4CA40045DF7E = {
+		A6C7FA661C7FD30A00A2B034 = {
 			isa = PBXGroup;
 			children = (
-				2930A7F11C7F4CA40045DF7E /* 4-Easy Browser with WKWebView */,
-				2930A7F01C7F4CA40045DF7E /* Products */,
+				A6C7FA711C7FD30A00A2B034 /* Easy Browser with WKWebView */,
+				A6C7FA701C7FD30A00A2B034 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2930A7F01C7F4CA40045DF7E /* Products */ = {
+		A6C7FA701C7FD30A00A2B034 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2930A7EF1C7F4CA40045DF7E /* 4-Easy Browser with WKWebView.app */,
+				A6C7FA6F1C7FD30A00A2B034 /* Easy Browser with WKWebView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2930A7F11C7F4CA40045DF7E /* 4-Easy Browser with WKWebView */ = {
+		A6C7FA711C7FD30A00A2B034 /* Easy Browser with WKWebView */ = {
 			isa = PBXGroup;
 			children = (
-				2930A7F21C7F4CA40045DF7E /* AppDelegate.swift */,
-				2930A7F41C7F4CA40045DF7E /* ViewController.swift */,
-				2930A7F61C7F4CA40045DF7E /* Main.storyboard */,
-				2930A7F91C7F4CA40045DF7E /* Assets.xcassets */,
-				2930A7FB1C7F4CA40045DF7E /* LaunchScreen.storyboard */,
-				2930A7FE1C7F4CA40045DF7E /* Info.plist */,
+				A6C7FA721C7FD30A00A2B034 /* AppDelegate.swift */,
+				A6C7FA741C7FD30A00A2B034 /* ViewController.swift */,
+				A6C7FA761C7FD30A00A2B034 /* Main.storyboard */,
+				A6C7FA791C7FD30A00A2B034 /* Assets.xcassets */,
+				A6C7FA7B1C7FD30A00A2B034 /* LaunchScreen.storyboard */,
+				A6C7FA7E1C7FD30A00A2B034 /* Info.plist */,
 			);
-			path = "4-Easy Browser with WKWebView";
+			path = "Easy Browser with WKWebView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2930A7EE1C7F4CA40045DF7E /* 4-Easy Browser with WKWebView */ = {
+		A6C7FA6E1C7FD30A00A2B034 /* Easy Browser with WKWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2930A8011C7F4CA40045DF7E /* Build configuration list for PBXNativeTarget "4-Easy Browser with WKWebView" */;
+			buildConfigurationList = A6C7FA811C7FD30A00A2B034 /* Build configuration list for PBXNativeTarget "Easy Browser with WKWebView" */;
 			buildPhases = (
-				2930A7EB1C7F4CA40045DF7E /* Sources */,
-				2930A7EC1C7F4CA40045DF7E /* Frameworks */,
-				2930A7ED1C7F4CA40045DF7E /* Resources */,
+				A6C7FA6B1C7FD30A00A2B034 /* Sources */,
+				A6C7FA6C1C7FD30A00A2B034 /* Frameworks */,
+				A6C7FA6D1C7FD30A00A2B034 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "4-Easy Browser with WKWebView";
-			productName = "4-Easy Browser with WKWebView";
-			productReference = 2930A7EF1C7F4CA40045DF7E /* 4-Easy Browser with WKWebView.app */;
+			name = "Easy Browser with WKWebView";
+			productName = "Easy Browser with WKWebView";
+			productReference = A6C7FA6F1C7FD30A00A2B034 /* Easy Browser with WKWebView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2930A7E71C7F4CA40045DF7E /* Project object */ = {
+		A6C7FA671C7FD30A00A2B034 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shiyuwudi;
 				TargetAttributes = {
-					2930A7EE1C7F4CA40045DF7E = {
+					A6C7FA6E1C7FD30A00A2B034 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 7X9J78X4BV;
+						DevelopmentTeam = D6YW9AKQXT;
 					};
 				};
 			};
-			buildConfigurationList = 2930A7EA1C7F4CA40045DF7E /* Build configuration list for PBXProject "4-Easy Browser with WKWebView" */;
+			buildConfigurationList = A6C7FA6A1C7FD30A00A2B034 /* Build configuration list for PBXProject "Easy Browser with WKWebView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 2930A7E61C7F4CA40045DF7E;
-			productRefGroup = 2930A7F01C7F4CA40045DF7E /* Products */;
+			mainGroup = A6C7FA661C7FD30A00A2B034;
+			productRefGroup = A6C7FA701C7FD30A00A2B034 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2930A7EE1C7F4CA40045DF7E /* 4-Easy Browser with WKWebView */,
+				A6C7FA6E1C7FD30A00A2B034 /* Easy Browser with WKWebView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2930A7ED1C7F4CA40045DF7E /* Resources */ = {
+		A6C7FA6D1C7FD30A00A2B034 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2930A7FD1C7F4CA40045DF7E /* LaunchScreen.storyboard in Resources */,
-				2930A7FA1C7F4CA40045DF7E /* Assets.xcassets in Resources */,
-				2930A7F81C7F4CA40045DF7E /* Main.storyboard in Resources */,
+				A6C7FA7D1C7FD30A00A2B034 /* LaunchScreen.storyboard in Resources */,
+				A6C7FA7A1C7FD30A00A2B034 /* Assets.xcassets in Resources */,
+				A6C7FA781C7FD30A00A2B034 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2930A7EB1C7F4CA40045DF7E /* Sources */ = {
+		A6C7FA6B1C7FD30A00A2B034 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2930A7F51C7F4CA40045DF7E /* ViewController.swift in Sources */,
-				2930A7F31C7F4CA40045DF7E /* AppDelegate.swift in Sources */,
+				A6C7FA751C7FD30A00A2B034 /* ViewController.swift in Sources */,
+				A6C7FA731C7FD30A00A2B034 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2930A7F61C7F4CA40045DF7E /* Main.storyboard */ = {
+		A6C7FA761C7FD30A00A2B034 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2930A7F71C7F4CA40045DF7E /* Base */,
+				A6C7FA771C7FD30A00A2B034 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2930A7FB1C7F4CA40045DF7E /* LaunchScreen.storyboard */ = {
+		A6C7FA7B1C7FD30A00A2B034 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2930A7FC1C7F4CA40045DF7E /* Base */,
+				A6C7FA7C1C7FD30A00A2B034 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2930A7FF1C7F4CA40045DF7E /* Debug */ = {
+		A6C7FA7F1C7FD30A00A2B034 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		2930A8001C7F4CA40045DF7E /* Release */ = {
+		A6C7FA801C7FD30A00A2B034 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,26 +244,26 @@
 			};
 			name = Release;
 		};
-		2930A8021C7F4CA40045DF7E /* Debug */ = {
+		A6C7FA821C7FD30A00A2B034 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "4-Easy Browser with WKWebView/Info.plist";
+				INFOPLIST_FILE = "Easy Browser with WKWebView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shiyuwudi.--Easy-Browser-with-WKWebView";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1353379533.123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2930A8031C7F4CA40045DF7E /* Release */ = {
+		A6C7FA831C7FD30A00A2B034 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = "4-Easy Browser with WKWebView/Info.plist";
+				INFOPLIST_FILE = "Easy Browser with WKWebView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shiyuwudi.--Easy-Browser-with-WKWebView";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1353379533.123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -271,24 +271,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2930A7EA1C7F4CA40045DF7E /* Build configuration list for PBXProject "4-Easy Browser with WKWebView" */ = {
+		A6C7FA6A1C7FD30A00A2B034 /* Build configuration list for PBXProject "Easy Browser with WKWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2930A7FF1C7F4CA40045DF7E /* Debug */,
-				2930A8001C7F4CA40045DF7E /* Release */,
+				A6C7FA7F1C7FD30A00A2B034 /* Debug */,
+				A6C7FA801C7FD30A00A2B034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2930A8011C7F4CA40045DF7E /* Build configuration list for PBXNativeTarget "4-Easy Browser with WKWebView" */ = {
+		A6C7FA811C7FD30A00A2B034 /* Build configuration list for PBXNativeTarget "Easy Browser with WKWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2930A8021C7F4CA40045DF7E /* Debug */,
-				2930A8031C7F4CA40045DF7E /* Release */,
+				A6C7FA821C7FD30A00A2B034 /* Debug */,
+				A6C7FA831C7FD30A00A2B034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2930A7E71C7F4CA40045DF7E /* Project object */;
+	rootObject = A6C7FA671C7FD30A00A2B034 /* Project object */;
 }

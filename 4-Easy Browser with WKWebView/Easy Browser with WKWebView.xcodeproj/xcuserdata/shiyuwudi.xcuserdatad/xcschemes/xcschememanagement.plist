@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>4-Easy Browser with WKWebView.xcscheme</key>
+		<key>Easy Browser with WKWebView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2930A7EE1C7F4CA40045DF7E</key>
+		<key>A6C7FA6E1C7FD30A00A2B034</key>
 		<dict>
 			<key>primary</key>
 			<true/>

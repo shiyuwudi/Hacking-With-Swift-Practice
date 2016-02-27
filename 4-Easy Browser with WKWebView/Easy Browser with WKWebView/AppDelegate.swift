@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  4-Easy Browser with WKWebView
+//  Easy Browser with WKWebView
 //
-//  Created by apple2 on 16/2/25.
+//  Created by shiyuwudi on 16/2/26.
 //  Copyright © 2016年 shiyuwudi. All rights reserved.
 //
 
