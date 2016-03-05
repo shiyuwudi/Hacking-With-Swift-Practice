@@ -20,7 +20,11 @@ class ViewController: UIViewController {
     var activatedButtons = [UIButton]()//已经被选择的按钮
     var solutions = [String]()//所有单词
     
-    var score = 0
+    var score = 0 {
+        didSet{
+            scoreLabel.text = "Score: \(score)"
+        }
+    }
     var level = 1//当前关卡
     
     //MARK:- touch event
@@ -43,7 +47,6 @@ class ViewController: UIViewController {
         answersLabel.text = letterNumbers.joinWithSeparator("\n")
         currentAnswer.text = ""
         score += 1
-        scoreLabel.text = "Score: \(score)"
         if score % 7 == 0 && score != 0 {
             showCongrats()
         }
@@ -69,6 +72,9 @@ class ViewController: UIViewController {
         //进入下一关
         level += 1
         loadLevel()
+        for letterButton in letterButtons {
+            letterButton.hidden = false
+        }
     }
     
     //MARK:- life circle
@@ -97,10 +103,6 @@ class ViewController: UIViewController {
     }
 
     func loadLevel () {
-        
-        for letterButton in letterButtons {
-            letterButton.hidden = false
-        }
         
         var clueString = "" //提示 eg:Ghosts in residence
         var solutionString = ""//字符数 eg:7 letters
