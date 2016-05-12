@@ -22,10 +22,12 @@ class GameScene: SKScene {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if let touch = touches.first {
             let location = touch.locationInNode(self)
-            let box = SKSpriteNode(color: UIColor.redColor(), size: CGSize(width: 64, height: 64))
-            box.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: 64, height: 64))
-            box.position = location
-            addChild(box)
+            let ball = SKSpriteNode(imageNamed: "ballRed")
+            let pb = SKPhysicsBody(circleOfRadius: ball.size.width / 2)
+            pb.restitution = 0.4
+            ball.physicsBody = pb
+            ball.position = location
+            addChild(ball)
         }
     }
    
