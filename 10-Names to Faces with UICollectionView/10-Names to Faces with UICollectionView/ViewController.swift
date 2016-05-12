@@ -18,7 +18,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addTapped")
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: #selector(ViewController.addTapped))
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,10 +36,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     // MARK: - image picker controller delegate
-    
-//    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
-//        
-//    }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
 //   step1.     Extract the image from the dictionary that is passed as a parameter. (if/let, as?)
@@ -68,7 +64,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         imageData.writeToFile(imagePath, atomically: true)
         
         //step4.
-        let person = Person(name: "Unknown", image: imageName)
+        let person = Person(name: "Unknown", image: imagePath)
         people.append(person)
         collectionView.reloadData()
         
@@ -90,7 +86,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Person", forIndexPath: indexPath) as! PersonCell
         let person = people[indexPath.row]
-        cell.imageView.image = UIImage(named: person.image)
+        let path = person.image
+        let image = UIImage(contentsOfFile: path)
+        cell.imageView.image = image
         cell.name.text = person.name
         return cell
     }
