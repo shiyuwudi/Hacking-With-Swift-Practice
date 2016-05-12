@@ -90,7 +90,30 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let image = UIImage(contentsOfFile: path)
         cell.imageView.image = image
         cell.name.text = person.name
+        let lay = cell.imageView.layer
+        lay.cornerRadius = 3
+        lay.borderColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).CGColor
+        lay.borderWidth = 2
+        cell.layer.cornerRadius = 7
         return cell
+    }
+    
+    //MARK:- collection view delegate
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let person = people[indexPath.row]
+        let al = UIAlertController(title: "Rename", message: "Type new name for this guy", preferredStyle: .Alert)
+        al.addTextFieldWithConfigurationHandler { (tf) in
+            tf.text = person.name
+        }
+        let a1 = UIAlertAction(title: "confirm", style: .Default) { _ in
+            guard let t = al.textFields?.first?.text else { return }
+            person.name = t
+            self.collectionView.reloadData()
+        }
+        let a2 = UIAlertAction(title: "cancel", style: .Cancel, handler: nil)
+        al.addAction(a1)
+        al.addAction(a2)
+        presentViewController(al, animated: true, completion: nil)
     }
     
 }
