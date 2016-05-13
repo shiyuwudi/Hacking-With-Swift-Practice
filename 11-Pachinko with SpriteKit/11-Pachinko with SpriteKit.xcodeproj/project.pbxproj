@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A653B9AC1CE56E8200C15465 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A653B9AB1CE56E8200C15465 /* Helper.swift */; };
 		A66F15DE1CE45EDA00B4E38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F15DD1CE45EDA00B4E38C /* AppDelegate.swift */; };
 		A66F15E01CE45EDB00B4E38C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A66F15DF1CE45EDB00B4E38C /* GameScene.sks */; };
 		A66F15E21CE45EDB00B4E38C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F15E11CE45EDB00B4E38C /* GameScene.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A653B9AB1CE56E8200C15465 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		A66F15DA1CE45ED900B4E38C /* 11-Pachinko with SpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "11-Pachinko with SpriteKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66F15DD1CE45EDA00B4E38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A66F15DF1CE45EDB00B4E38C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -72,7 +74,7 @@
 		A66F16031CE4629700B4E38C /* ballYellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ballYellow@2x.png"; sourceTree = "<group>"; };
 		A66F16041CE4629700B4E38C /* bouncer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bouncer.png; sourceTree = "<group>"; };
 		A66F16051CE4629700B4E38C /* bouncer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bouncer@2x.png"; sourceTree = "<group>"; };
-		A66F16061CE4629700B4E38C /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
+		A66F16061CE4629700B4E38C /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = FireParticles.sks; path = Content/FireParticles.sks; sourceTree = "<group>"; };
 		A66F16071CE4629700B4E38C /* slotBaseBad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotBaseBad.png; sourceTree = "<group>"; };
 		A66F16081CE4629700B4E38C /* slotBaseBad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slotBaseBad@2x.png"; sourceTree = "<group>"; };
 		A66F16091CE4629700B4E38C /* slotBaseGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slotBaseGood.png; sourceTree = "<group>"; };
@@ -117,8 +119,10 @@
 				A66F15F31CE4629700B4E38C /* Content */,
 				A66F15DD1CE45EDA00B4E38C /* AppDelegate.swift */,
 				A66F15DF1CE45EDB00B4E38C /* GameScene.sks */,
+				A66F16061CE4629700B4E38C /* FireParticles.sks */,
 				A66F15E11CE45EDB00B4E38C /* GameScene.swift */,
 				A66F15E31CE45EDB00B4E38C /* GameViewController.swift */,
+				A653B9AB1CE56E8200C15465 /* Helper.swift */,
 				A66F15E51CE45EDB00B4E38C /* Main.storyboard */,
 				A66F15E81CE45EDB00B4E38C /* Assets.xcassets */,
 				A66F15EA1CE45EDB00B4E38C /* LaunchScreen.storyboard */,
@@ -148,7 +152,6 @@
 				A66F16031CE4629700B4E38C /* ballYellow@2x.png */,
 				A66F16041CE4629700B4E38C /* bouncer.png */,
 				A66F16051CE4629700B4E38C /* bouncer@2x.png */,
-				A66F16061CE4629700B4E38C /* FireParticles.sks */,
 				A66F16071CE4629700B4E38C /* slotBaseBad.png */,
 				A66F16081CE4629700B4E38C /* slotBaseBad@2x.png */,
 				A66F16091CE4629700B4E38C /* slotBaseGood.png */,
@@ -265,6 +268,7 @@
 				A66F15E21CE45EDB00B4E38C /* GameScene.swift in Sources */,
 				A66F15E41CE45EDB00B4E38C /* GameViewController.swift in Sources */,
 				A66F15DE1CE45EDA00B4E38C /* AppDelegate.swift in Sources */,
+				A653B9AC1CE56E8200C15465 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +420,7 @@
 				A66F15F21CE45EDB00B4E38C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
